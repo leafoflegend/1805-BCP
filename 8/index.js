@@ -12,8 +12,6 @@ console.log(chalk[returnRandomColor()]('------------------------------'));
 
 const c = (...args) => console.log(...args);
 
-
-
 var Tony = {
   hasHeadphones: true,
   hasBed: true,
