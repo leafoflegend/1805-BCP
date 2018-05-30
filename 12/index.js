@@ -133,6 +133,8 @@ const converse = () => {
 // We have to introduce any missing piece of iteration. In recursion we call that piece 'The Base Case'
 // The base case is defined as: The one condition during which we do not call the function again.
 
+// base cases often define when the functions calling the current function get to resume.
+
 const countdown = (num) => {
   if (num >= 1) {
     countdown(num - 1);
